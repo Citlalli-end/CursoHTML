@@ -1,0 +1,46 @@
+body{
+    background: wheat;
+}
+
+/*span{
+    color:purple;
+}
+
+p{
+    color:green;
+    /* 
+    Son 3 formas de meter color
+    color:green;
+    color:rgb(0,255,255);
+    color:#73A258;
+     
+}*/
+
+.text{
+    font-size: 30px;
+    color:tomato;
+}
+
+#parrafo{
+    font-size: 60px;
+    color:teal;
+}
+
+/* p.combinado{
+    font-size: 90px;
+} */
+
+p.caja{
+    border:3px solid red;
+    /* margin: arriba derecha abajo izquierda; */
+    /* margin:100px 50px 80px 50px; */
+    /* margin: (arriba, abajo)(izquierda, derecha) */
+    /* margin: 40px; */
+    margin:30px 50px 20px 50px;
+}
+
+p.box{
+    border: 3px dashed blue;
+    margin:0;
+    padding: 15px;
+}

@@ -1,0 +1,31 @@
+body{
+    background:wheat;
+}
+
+ul{
+    padding: 30px;
+    list-style: none;
+    display: flex; /*esta opcion alinea todos los li, forma más flexible y comun*/
+    justify-content: center;
+}
+
+li{
+    /* width: 20%;
+    display: inline-block; pone en linea el menu, pero no es recomendable */
+    width: 150px;
+    text-align: center;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    background: cornflowerblue;
+    color:cornsilk;
+    /* border-radius: lado superior izquierdo, lado superior derecho, lado inferior derecho, lado superior izquierdo; */
+    border-radius: 5px;
+    cursor: crosshair; /*hay mas tipos de cursor*/
+}
+
+/* pesudo clase: define el estado */ 
+
+li:hover{ /* Lo que le va a pasar a esa etiqueta cuando el cursor esta hover (encima) */
+    background: brown;
+    /*existen mas elementos, como sobreado y rotación, buscar en google*/
+}
